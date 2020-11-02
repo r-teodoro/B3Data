@@ -1,5 +1,6 @@
 # B3Data
-Scripts de requisição de dados de cotações e informações financeiras de ações listadas na B3 (bovespa)
+Scripts de requisição de dados de cotações e informações financeiras de ações listadas na B3 (Bovespa).
 
-Fonte de dados:
-* HG Brasil Finance - https://console.hgbrasil.com/documentation/finance
+
+*Fontes de dados:*
+* [HG Brasil Finance](https://hgbrasil.com/status/finance>)

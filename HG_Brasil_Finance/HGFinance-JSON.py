@@ -17,7 +17,7 @@ for item in open("HGFinance-Lista.txt"):
     content = json.loads(response.content)
     results = content['results'][ticker]
     atualizacao = results["updated_at"][0:10]
-   
+
     print(f"A cotação atual de {results['symbol']} é {results['price']}, a variação em relação ao dia anterior é {results['change_percent']}")
     
     with open(os.path.join('json', f'{ticker}.json'), 'w') as file:
